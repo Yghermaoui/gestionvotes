@@ -1,0 +1,146 @@
+/* Style général */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #4e54c8, #8f94fb);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Conteneur de la connexion */
+.login-container {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Titre */
+.login-container h1 {
+    margin-bottom: 20px;
+    color: #4e54c8;
+    font-size: 24px;
+}
+
+/* Groupes de champs */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Labels */
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Champs de saisie */
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border 0.3s;
+}
+
+.form-group input:focus {
+    border: 1px solid #4e54c8;
+}
+
+/* Bouton de connexion */
+.btn-login {
+    width: 100%;
+    padding: 10px;
+    background: #4e54c8;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-login:hover {
+    background: #8f94fb;
+}
+
+/* Conteneur du logo en haut de la page */
+.header-logo {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Style du logo en haut */
+.header-logo-img {
+    width: 100px;
+    height: auto;
+}
+
+/* ----- STYLES SPÉCIFIQUES À index.php ----- */
+
+/* Conteneur principal pour index.php */
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+/* Bulle de bienvenue */
+.welcome-bubble {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 40%;
+    text-align: left;
+    color: #333;
+}
+
+/* Titre dans la bulle de bienvenue */
+.welcome-bubble h1 {
+    color: #4e54c8;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* Boutons dans la bulle de bienvenue */
+.welcome-bubble .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    background: #4e54c8;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.welcome-bubble .btn:hover {
+    background: #8f94fb;
+}
+
+/* Conteneur du logo */
+.logo-container {
+    width: 50%;
+    /* Augmente la largeur réservée au logo */
+    text-align: center;
+}
+
+/* Logo */
+.logo-container .logo {
+    max-width: 700px;
+    /* Augmente la taille maximale du logo */
+    height: auto;
+}
